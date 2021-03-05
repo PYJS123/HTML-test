@@ -1,0 +1,43 @@
+:root {
+  --buttonHeight: 6.75%
+}
+
+html, body {
+  background-color: rgb(28, 28, 28);
+}
+
+marquee {
+  font-family: Trebuchet MS;
+  /* text-decoration: underline; */
+  color: #EEEEEE;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+newThing {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #4CAFFF;
+  font-family: monospace;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px 0px;
+  color: rgb(120, 50, 60);
+  border:none;
+  outline-style: none;
+  cursor:pointer;
+  position:fixed;
+  width: 50%;
+  height: var(--buttonHeight);
+  bottom: 45%;
+  left: 25%;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Chrome, Opera and Firefox */
+}
